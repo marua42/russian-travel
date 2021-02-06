@@ -1,0 +1,19 @@
+.place__website {
+    position: absolute;
+    bottom: 30%;
+    left: 51.5%;
+}
+
+@media all and (max-width: 768px) {
+    .place__website {
+        bottom: 30%;
+        left: 60%;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .place__website {
+        top: 70%;
+        left: 0;
+    }
+}

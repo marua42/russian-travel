@@ -1,0 +1,22 @@
+.footer__link {
+    margin-left: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #AAAAAA;
+    transition: 1s;
+}
+
+.footer__link:first-child {
+    margin: 0;
+}
+
+@media all and (max-width: 320px) {
+    .footer__link {
+        display: block;
+        margin: 0;
+        padding-bottom: 32px;
+    }
+}

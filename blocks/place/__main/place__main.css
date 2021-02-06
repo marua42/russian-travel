@@ -1,0 +1,9 @@
+.place__main {
+    position: relative;
+}
+
+@media all and (max-width: 768px) {
+    .place__main {
+        max-width: 80%;
+    }
+} 

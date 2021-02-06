@@ -1,0 +1,19 @@
+.place__infa {
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+@media all and (max-width: 768px) {
+    .place__infa {
+       max-width: 94%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place__infa {
+       padding-top: 60px;
+    }
+}

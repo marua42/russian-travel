@@ -1,0 +1,29 @@
+.cover__caption {
+    max-width: 410px;
+    position: absolute;
+    top: 30%;
+    right: 32%;
+    text-align: center;
+    z-index: 2;
+}
+
+@media all and (max-width: 1024px) {
+    .cover__caption {
+        top: 20%;
+        right: 30%;
+    }
+} 
+
+@media all and (max-width: 768px) {
+    .cover__caption {
+        top: 20%;
+        right: 25%;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .cover__caption {
+        top: 20%;
+        right: 0;
+    }
+} 
