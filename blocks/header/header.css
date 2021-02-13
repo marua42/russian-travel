@@ -7,3 +7,9 @@
     padding-top: 48px;
     align-self: center;
 }
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 16px;
+    }
+}

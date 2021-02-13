@@ -1,19 +1,18 @@
 .place__website {
-    position: absolute;
-    bottom: 30%;
-    left: 51.5%;
+    align-self: flex-end;
+    padding-bottom: 48px;
+    width: 200px;
 }
 
 @media all and (max-width: 768px) {
     .place__website {
-        bottom: 30%;
-        left: 60%;
+        width: 210px;
     }
 } 
 
 @media all and (max-width: 320px) {
     .place__website {
-        top: 70%;
-        left: 0;
+        width: 300px;
+        padding-bottom: 32px;
     }
-}
+} 

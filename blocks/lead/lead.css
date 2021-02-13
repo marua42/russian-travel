@@ -2,3 +2,15 @@
     max-width: 984px;
     margin: auto;
 }
+
+@media all and (max-width: 1024px) {
+    .lead {
+        max-width: 90%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}

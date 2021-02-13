@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/file.css">
-    <link rel="stylesheet" href="./fonts/inter/InterWeb/inter.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -16,7 +14,7 @@
         <header class="header">
             <img class="logo" src="./images/logo.png" alt="лого">
             <div class="header__lang-links">
-                <a class="header__lang-link" href="#" target="_blank" lang="en">Ru</a>
+                <a class="header__lang-link header__lang-link__active" href="#" target="_blank" lang="en">Ru</a>
                 <a class="header__lang-link" href="#" target="_blank" lang="en">En</a>
             </div>
         </header>
@@ -32,8 +30,8 @@
         </section>
 
         <section class="intro">
-            <h2 class="section-title">Чего мы там не видели?</h2>
-            <p class="section-paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
                 планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия —
                 это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё
                 увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как,
@@ -50,28 +48,28 @@
 
         </section>
         
-    <article class="flex">
-        <img class="flex__item" src="./images/item1.jpg" alt="фото">
-        <img class="flex__item"src="./images/item2.jpg" alt="фото">
-        <img class="flex__item" src="./images/item3.jpg" alt="фото">
-        <img class="flex__item" src="./images/item4.jpg" alt="фото">
-        <img class="flex__item" src="./images/item5.jpg" alt="фото">
-        <img class="flex__item" src="./images/item6.jpg" alt="фото">
-        <img class="flex__item" src="./images/item7.jpg" alt="фото">
-        <img class="flex__item" src="./images/item8.jpg" alt="фото">
-        <img class="flex__item" src="./images/item9.jpg" alt="фото">
-        <img class="flex__item" src="./images/item10.jpg" alt="фото">
-        <img class="flex__item" src="./images/item11.jpg" alt="фото">
-        <img class="flex__item" src="./images/item12.jpg" alt="фото">
-    </article>
+    <section class="gallery">
+        <img class="gallery__item" src="./images/item1.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item2.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item3.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item4.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item5.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item6.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item7.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item8.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item9.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item10.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item11.jpg" alt="фото">
+        <img class="gallery__item" src="./images/item12.jpg" alt="фото">
+    </section>
 
         <section class="places">
 
             <div class="place">
                 <div class="place__main">
-                    <h2 class="section-title place__title">Куршская коса</h2>
+                    <h2 class="place__title">Куршская коса</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">U R L</p>
+                        <p class="place__url-heading">URL</p>
                         <a class="place__url" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                     </div>
                 </div>
@@ -99,9 +97,9 @@
 
             <div class="place">
                 <div class="place__main">
-                    <h2 class="section-title place__title">Кольский</h2>
+                    <h2 class="place__title">Кольский</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">U R L</p>
+                        <p class="place__url-heading">URL</p>
                         <a class="place__url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                     </div>
                 </div>
@@ -125,9 +123,9 @@
 
             <div class="place">
                 <div class="place__main">
-                    <h2 class="section-title place__title">Алтай</h2>
+                    <h2 class="place__title">Алтай</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">U R L</p>
+                        <p class="place__url-heading">URL</p>
                         <a class="place__url" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
                     </div>
                 </div>
@@ -149,9 +147,9 @@
 
             <div class="place">
                 <div class="place__main">
-                    <h2 class="section-title place__title">Зимний Байкал</h2>
+                    <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">U R L</p>
+                        <p class="place__url-heading">URL</p>
                         <a class="place__url" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                     </div>
                 </div>
@@ -172,9 +170,9 @@
 
             <div class="place">
                 <div class="place__main">
-                    <h2 class="section-title place__title">Карелия</h2>
+                    <h2 class="place__title">Карелия</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">U R L</p>
+                        <p class="place__url-heading">URL</p>
                         <a class="place__url" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
                     </div>
                 </div>
@@ -192,31 +190,34 @@
                 </div>
             </div>
         </section>
-    <section class="cover">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+
+        <section class="cover">
         <div class="cover__overlay">
-                <img class="cover__image" src="./images/transsib.jpg" alt="транссиб">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <div class="cover__caption">
-                <h2 class="section-title">До Байкала «на собаках»</h2>
-            <p class="section-paragraph cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-            </div> 
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            </div>
+            </a>
         </div>
-    </a>
     </section>
+
 
     </main>
 
-    <footer class="footer">
-        <nav class="footer__links">
-            <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
-            <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
-            <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
-            <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
-            <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
-        </nav>
+    
+        <footer class="footer">
+        <ul class="footer__links">
+            <a href="https://yandex.ru/maps" class="footer__link" target="_blank"><li>Карты</li></a>
+            <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank"><li>Погода</li></a>
+            <a href="https://rasp.yandex.ru" class="footer__link" target="_blank"><li>Расписание</li></a>
+            <a href="https://calendar.yandex.ru" class="footer__link" target="_blank"><li>Календарь</li></a>
+            <a href="https://travel.yandex.ru" class="footer__link" target="_blank"><li>Путешествия</li></a>
+        </ul>
         <p class="footer__copyright">&copy; 2020. Аушева М.</p>
     </footer>
 
+    
     </div>
 </body>
 

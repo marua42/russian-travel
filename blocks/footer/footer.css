@@ -1,5 +1,5 @@
 .footer {
-    max-width: 91%;
+    max-width: 1184px;
     min-height: 18px;
     display: flex;
     justify-content: space-between;
@@ -30,10 +30,7 @@
 
 @media all and (max-width: 320px) {
     .footer {
-        max-width: 50%;
-        font-size: 24px;
-        margin: 0;
-        padding-left: 16px;
-        flex-direction: column;
+      flex-direction: column;
+      padding-top: 64px;
     }
 }

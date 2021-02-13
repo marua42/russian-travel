@@ -1,9 +1,18 @@
 .place__main {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 705px;
 }
 
 @media all and (max-width: 768px) {
     .place__main {
-        max-width: 80%;
+        max-width: 560px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place__main {
+        flex-direction: column;
+       
     }
 } 

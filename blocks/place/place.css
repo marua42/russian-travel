@@ -6,12 +6,12 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        padding-left: 24px;
+        max-width: 96%;
     }
 }
 
 @media all and (max-width: 320px) {
     .place {
-        padding-bottom: 50px;
+        max-width: 100%;
     }
 }

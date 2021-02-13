@@ -9,9 +9,13 @@
     text-decoration: none;
 }
 
-.header__lang-link:first-child{
-    padding-right: 18px;
+.header__lang-link__active{
+    margin-right: 18px;
     text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

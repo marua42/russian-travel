@@ -1,0 +1,18 @@
+.cover__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    max-width: 1184px;
+    height: 740px;
+    background-image: url(./_image/transsib.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width: 320px) {
+    .cover__link {
+    max-width: 320px;
+    height: 200px;
+    }
+} 

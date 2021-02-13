@@ -12,10 +12,3 @@
         max-width: 95%;
     }
 }
-
-
-@media screen and (max-width: 768px) {
-    .intro {
-        max-width: 95%;
-    }
-}
