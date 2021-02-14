@@ -6,9 +6,9 @@
     margin: 0;
 }
 
-@media all and (max-width: 320px) {
-    .footer__links {
-      flex-direction: column;
-      align-self: flex-start;
-    }
+@media all and (max-width: 550px) {
+  .footer__links {
+    flex-direction: column;
+    align-self: flex-start;
+  }
 }

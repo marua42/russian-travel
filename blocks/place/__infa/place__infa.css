@@ -8,13 +8,18 @@
 
 @media all and (max-width: 768px) {
     .place__infa {
-       max-width: 94%;
+       max-width: 92%;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .place__infa {
+        max-width: 100%;
     }
 }
 
 @media all and (max-width: 320px) {
     .place__infa {
         padding-left: 0;
-        max-width: 100%;
     }
 }

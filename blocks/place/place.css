@@ -4,9 +4,28 @@
     margin: auto;
 }
 
+@media all and (max-width: 820px) {
+    .place {
+        max-width: 60%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place {
-        max-width: 96%;
+        max-width: 98%;
+    }
+}
+
+@media all and (max-width: 656px) {
+    .place {
+        max-width: 50%;
+    }
+}
+
+
+@media all and (max-width: 550px) {
+    .place {
+        max-width: 60%;
     }
 }
 

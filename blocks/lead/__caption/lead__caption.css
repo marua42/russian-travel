@@ -16,3 +16,9 @@
         padding-left: 24px;
     }
 }
+
+@media all and (max-width: 320px) {
+    .lead__caption {
+        padding-bottom: 64px;
+    }
+}

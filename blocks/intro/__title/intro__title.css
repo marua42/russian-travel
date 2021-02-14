@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 1.5;
+    line-height: 58px;
     color: #FFFFFF;
     padding-bottom: 40px;
     margin: 0;
@@ -13,6 +13,7 @@
     .intro__title {
         width: 250px;
         font-size: 32px;
+        line-height: 35px;
         padding-bottom: 20px;
     }
 }

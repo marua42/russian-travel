@@ -10,9 +10,15 @@
     }
 } 
 
+@media all and (max-width: 767px) {
+    .place__main {
+        width: 230px;
+    }
+} 
+
 @media all and (max-width: 320px) {
     .place__website {
-        width: 300px;
+        width: 215px;
         padding-bottom: 32px;
     }
 } 

@@ -11,6 +11,14 @@
     padding-bottom: 32px;
 }
 
+@media all and (max-width: 550px) {
+    .cover__title {
+        width: 100%;
+       font-size: 40px;
+       line-height: 1;
+    }
+} 
+
 @media all and (max-width: 320px) {
     .cover__title {
         width: 250px;

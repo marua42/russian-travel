@@ -3,16 +3,38 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    max-width: 1184px;
-    height: 740px;
+    max-width: 100%;
+    min-height: 740px;
     background-image: url(./_image/transsib.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+@media all and (max-width: 1024px) {
+    .cover__link {
+    max-width: 1024px;
+    min-height: 640px;
+    }
+} 
+
+@media all and (max-width: 768px) {
+    .cover__link {
+    max-width: 768px;
+    min-height: 480px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .cover__link {
+    max-width: 100%;
+    min-height: 300px;
+    }
+} 
+
 @media all and (max-width: 320px) {
     .cover__link {
     max-width: 320px;
-    height: 200px;
+    min-height: 200px;
     }
 } 
