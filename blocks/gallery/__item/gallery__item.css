@@ -7,13 +7,13 @@
 
 @media all and (max-width: 1024px) {
     .gallery__item {
-        width: 310px;
+        max-width: 310px;
     }
 }
 
 
 @media all and (max-width: 768px) and (max-width: 1024px) {
     .gallery__item {
-        width: 350px;
+        max-width: 350px;
     }
 }

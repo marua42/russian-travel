@@ -1,12 +1,5 @@
 .footer__link {
     margin-left: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.footer__link:hover {
-    transition: 1s;
-    opacity: 0.5;
 }
 
 .footer__link:first-child {
