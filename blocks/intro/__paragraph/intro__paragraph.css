@@ -9,3 +9,9 @@
     padding-bottom: 30px;
     margin: 0;
 }
+
+@media all and (max-width: 768px) {
+    .intro__paragraph {
+        max-width: 720px;
+    }
+} 
